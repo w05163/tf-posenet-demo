@@ -1,0 +1,37 @@
+html, body {
+	margin:0;
+	padding:0;
+	height: 100%;
+}
+.content{
+	position: relative;
+	height: 100vh;
+}
+.content>.back{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: blue;
+	text-align: center;
+	font-size: 40px;
+	color: #fff;
+}
+#video{
+	position: absolute;
+	top: 50px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	z-index: 100;
+	opacity: 1;
+}
+.point{
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	border-radius: 4px;
+	background: #fff;
+	z-index: 2000;
+}
